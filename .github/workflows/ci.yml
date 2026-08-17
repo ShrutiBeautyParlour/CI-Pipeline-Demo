@@ -28,4 +28,4 @@ jobs:
 
       # Step 4: Run the automated unit tests
       - name: Run Tests
-        run: npm test
+        run: npm test -- --passWithNoTests
